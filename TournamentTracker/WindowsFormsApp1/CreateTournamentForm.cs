@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class CreateTournament : Form
+    public partial class CreateTournamentForm : Form
     {
-        public CreateTournament()
+        public CreateTournamentForm()
         {
             InitializeComponent();
+        }
+
+        private void deleteSelectedPlayerButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
