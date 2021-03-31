@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace TrackerUI
 {
-    public partial class TournamentDashboardForm : Form
+    public partial class CreateTeamForm : Form
     {
-        public TournamentDashboardForm()
+        public CreateTeamForm()
         {
             InitializeComponent();
         }

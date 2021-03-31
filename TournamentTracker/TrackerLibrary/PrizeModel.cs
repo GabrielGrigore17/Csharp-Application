@@ -10,6 +10,10 @@ namespace TrackerLibrary
     public class PrizeModel
     {
         /// <summary>
+        /// The unique identifier used for storage
+        /// </summary>
+        public int Id { get; set; }
+        /// <summary>
         /// Represents the place number of the player to which this prize is
         /// directed.
         /// </summary>

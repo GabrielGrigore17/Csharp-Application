@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace TrackerUI
 {
-    public partial class TournamentViewerForm : Form
+    public partial class CreateTournamentForm : Form
     {
-        public TournamentViewerForm()
+        public CreateTournamentForm()
         {
             InitializeComponent();
+        }
+
+        private void deleteSelectedPlayerButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

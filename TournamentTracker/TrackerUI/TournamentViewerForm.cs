@@ -16,6 +16,5 @@ namespace TrackerUI
         {
             InitializeComponent();
         }
-
     }
 }

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace TrackerLibrary
 {
-    public class SqlConnector : IDataConnection
+    public class TextConnection : IDataConnection
     {
-        // TODO - Make the CreatePrize method actually save to a data base
+        // TODO - WIre up  the CreatePrize for the text files.
         /// <summary>
-        /// Saves a new prize to the database
+        /// Saves a new prize to the text file/files
         /// </summary>
         /// <param name="model">The prize information</param>
         /// <returns>The prize information, including the unique identifier.</returns>

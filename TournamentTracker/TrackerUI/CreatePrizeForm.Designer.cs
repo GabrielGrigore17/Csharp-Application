@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace TrackerUI
 {
     partial class CreatePrizeForm
     {
