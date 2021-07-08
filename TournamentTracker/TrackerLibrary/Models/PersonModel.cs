@@ -9,6 +9,8 @@ namespace TrackerLibrary.Models
     /// </summary>
     public class PersonModel
     {
+        public int Id { get; set; }
+
         /// <summary>
         /// The first name of the person.
         /// </summary>
@@ -26,5 +28,13 @@ namespace TrackerLibrary.Models
         /// The primary cellphone number of the person.
         /// </summary>
         public string CellphoneNumber { get; set; }
+
+        public string FullName
+        {
+            get
+            {
+                return $"{FirstName} {LastName}";
+            }
+        }
     }
 }
